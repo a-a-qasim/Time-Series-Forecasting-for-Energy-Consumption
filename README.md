@@ -21,15 +21,15 @@ My upgraded model achieved a lower error rate than the original project benchmar
 
 ### 1. Data Train/Test Split
 Separating the data at 2015-01-01 to validate model performance on unseen future data.
-![Train Test Split](energy_train_test_split.png)
+![Train Test Split](figures/energy_train_test_split.png)
 
 ### 2. Feature Importance
 Analysis showing that **Hour of Day** is the primary driver of energy consumption fluctuations.
-![Feature Importance](feature_importance_ranking.png)
+![Feature Importance](figures/feature_importance_ranking.png)
 
 ### 3. Forecast vs. Truth
 A comparison of the model's predictions (8.56% MAPE) against actual recorded energy usage.
-![Final Prediction](forecast_results_comparison.png)
+![Final Prediction](figures/forecast_results_comparison.png)
 
 ## Conclusion
 The model proves highly effective at capturing daily rhythms. Future iterations will incorporate weather data (Temperature/Humidity) to further reduce errors during extreme seasonal peaks.
